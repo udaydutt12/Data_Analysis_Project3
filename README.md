@@ -23,3 +23,8 @@
 ### 19. Tree Pruning
 ### 20. Random Forest
 ### 21. Ridge Regression
+
+## Here are some pictures of the results:
+
+![](finalproj1.png)
+![](finalproj2.png)
