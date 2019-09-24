@@ -1,5 +1,5 @@
-#---------------------------------------------------------------
-#Box Plots of contineous variables wr.to 'pnum'
+#Box Plots of continuous variables wr.to 'pnum'
+
 ggplot(hdata, aes(x = pnum, y = age, fill = sex)) +
   geom_boxplot(outlier.size = 1.5)
 ggplot(hdata, aes(x = pnum, y = trestbps, fill = sex)) +
@@ -10,8 +10,8 @@ ggplot(hdata, aes(x = pnum, y = thalach, fill = sex)) +
   geom_boxplot(outlier.size = 1.5)
 ggplot(hdata, aes(x = pnum, y = oldpeak, fill = sex)) +
   geom_boxplot(outlier.size = 1.5)
-#------------------------------------------------------------
-#Box Plots of contineous variables wr.to 'phd'
+
+#Box Plots of continuous variable wr.to 'phd'
 ggplot(hdata, aes(x = phd, y = age, fill = sex)) +
   geom_boxplot(outlier.size = 1.5)
 ggplot(hdata, aes(x = phd, y = trestbps, fill = sex)) +
@@ -22,4 +22,3 @@ ggplot(hdata, aes(x = phd, y = thalach, fill = sex)) +
   geom_boxplot(outlier.size = 1.5)
 ggplot(hdata, aes(x = phd, y = oldpeak, fill = sex)) +
   geom_boxplot(outlier.size = 1.5)
-```

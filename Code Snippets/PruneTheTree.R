@@ -1,6 +1,6 @@
 
-#__Pruning based of Cross validation__
-```{r}
+# Pruning based of Cross validation
+
 # Based on obtained results, it appears that a tree with 
 # 5-terminal node results in lowest cross-validation deviance
 # Thus, prune the tree to obtain the 5-node tree
@@ -13,5 +13,4 @@ predEff<-mean(tree.pred==phd.test)
 testErr<-1-predEff
 predEff
 testErr
-#Prediction efficiency = (39+29)/85 = 80%
-```
+# Prediction efficiency = (39+29)/85 = 80%

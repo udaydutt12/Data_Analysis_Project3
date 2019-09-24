@@ -1,4 +1,4 @@
-#__Scatterplot Matrices__
+# Scatterplot Matrices
 pairs(~pnum + age+ sex+cp+trestbps+chol+fbs+
         restecg+thalach+exang+oldpeak+slope+
         ca+thal, data=hdata, 
@@ -12,7 +12,7 @@ scatterplot.matrix(~ age+ trestbps+chol+
 scatterplot.matrix(~age+ trestbps+chol+
                      thalach+oldpeak+ca|phd, data=hdata, 
                    main="Scatter Plot Matrix on the phd Factor")
-#----------------------------------------------------------------------
+
 # Individual Scatter Plots
 ggplot(hdata, aes(age, y = pnum, color = sex)) + 
   geom_point(size = 2)
