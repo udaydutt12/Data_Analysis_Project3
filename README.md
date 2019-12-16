@@ -1,6 +1,8 @@
-# Data Analysis Project 3
+# Heart Disease ML Project
 
-## In this repo, I explore the following Machine Learning/ Data Analysis Methods.
+![](geomheart.png)
+---
+## In this repo, I explore the following Machine Learning/ Data Analysis Methods in order to find any patterns that emerge between variables. Please refer to the Code Snippets for my comments on my findings.
 
 ### 1. Best Subset Selection
 ### 2. Forward Stepwise Selection
